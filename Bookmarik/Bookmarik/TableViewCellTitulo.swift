@@ -15,7 +15,8 @@ class TableViewCellTitulo: UITableViewCell {
 
     @IBOutlet weak var titulo: UILabel!
     @IBOutlet weak var lblpuntaje: UILabel!
-    @IBOutlet weak var lblGenero: UILabel!
+   
+    @IBOutlet weak var lblgenero: UILabel!
     @IBOutlet weak var imglibros: UIImageView!
     
     
