@@ -18,7 +18,8 @@ class TableViewController_Libros_Leidos: UITableViewController {
     
     var arregloLeidos:[Leidos]=[
         Leidos(foto: UIImage(named: "portada")!, titulo:"orgullo y prejuicio", puntaje:"10" , Genero: "romance"),
-        Leidos(foto: UIImage(named: "portada2")!, titulo:"asesinato en el orient express", puntaje: "10", Genero: "misterio")
+        Leidos(foto: UIImage(named: "portada2")!, titulo:"asesinato en el orient express", puntaje: "10", Genero: "misterio"),
+        Leidos(foto: UIImage(named: "portada3")!, titulo:"sentido y sensibilidad", puntaje: "10", Genero: "romance")
     ]
     
     override func viewDidLoad() {
@@ -51,6 +52,7 @@ class TableViewController_Libros_Leidos: UITableViewController {
         cell.imglibros.image=celdaReciclada.foto
         cell.lblpuntaje.text=celdaReciclada.puntaje
         cell.lblgenero.text=celdaReciclada.Genero
+        cell.titulo.text=celdaReciclada.titulo
         
         // Configure the cell...
         
